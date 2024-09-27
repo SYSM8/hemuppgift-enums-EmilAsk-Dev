@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enum", "Enum\Enum.csproj", "{1981D991-FD96-47E7-9397-B194E8A718CA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ref", "Ref\Ref.csproj", "{1726200E-D8F3-4204-924E-6137BA77F7E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enkel Klass med Egenskaper - 1", "Enum\Enkel Klass med Egenskaper - 1.csproj", "{1981D991-FD96-47E7-9397-B194E8A718CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{1981D991-FD96-47E7-9397-B194E8A718CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1981D991-FD96-47E7-9397-B194E8A718CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1981D991-FD96-47E7-9397-B194E8A718CA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1726200E-D8F3-4204-924E-6137BA77F7E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1726200E-D8F3-4204-924E-6137BA77F7E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1726200E-D8F3-4204-924E-6137BA77F7E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1726200E-D8F3-4204-924E-6137BA77F7E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
