@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hemuppgift
+namespace Ref
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hej");
-            Console.ReadKey();
+            
         }
     }
 }

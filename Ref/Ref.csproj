@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{69B31BC8-BE25-4923-95EF-D2B3DAEBCA76}</ProjectGuid>
+    <ProjectGuid>{1726200E-D8F3-4204-924E-6137BA77F7E8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Hemuppgift</RootNamespace>
-    <AssemblyName>Hemuppgift</AssemblyName>
+    <RootNamespace>Ref</RootNamespace>
+    <AssemblyName>Ref</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
