@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Enum
+namespace Uppgift_1_Skapa_en_Enkel_Klass_med_Egenskaper
 {
     internal class Program
     {
@@ -20,7 +20,7 @@ namespace Enum
             Emil.GetFullName();
             Emil2.GetFullName();
 
-            
+            Console.ReadKey();
         }
     }
 }
