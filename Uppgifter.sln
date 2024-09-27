@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift 2 Validera Egenskap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift 3 Automatiskt Implementerade Egenskper", "Hemuppgift Enums & Properties\Uppgift 3 Automatiskt Implementerade Egenskper\Uppgift 3 Automatiskt Implementerade Egenskper.csproj", "{5DD4538F-F9A2-4275-B696-C571B07BB298}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift 4 Read-Only Egenskaper", "Uppgift 4 Read-Only Egenskaper\Uppgift 4 Read-Only Egenskaper.csproj", "{43ADE0B8-7F7B-4C4F-A971-37754FFD722E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5DD4538F-F9A2-4275-B696-C571B07BB298}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DD4538F-F9A2-4275-B696-C571B07BB298}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DD4538F-F9A2-4275-B696-C571B07BB298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43ADE0B8-7F7B-4C4F-A971-37754FFD722E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43ADE0B8-7F7B-4C4F-A971-37754FFD722E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43ADE0B8-7F7B-4C4F-A971-37754FFD722E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43ADE0B8-7F7B-4C4F-A971-37754FFD722E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
