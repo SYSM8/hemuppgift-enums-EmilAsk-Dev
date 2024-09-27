@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift 1 Skapa en Enkel Klass med Egenskaper", "Hemuppgift Enums & Properties\Uppgift 1 Skapa en Enkel Klass med Egenskaper\Uppgift 1 Skapa en Enkel Klass med Egenskaper.csproj", "{39A82746-8315-4C53-87F9-72BAF8AC92B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift 2 Validera Egenskaper", "Hemuppgift Enums & Properties\Uppgift 2 Validera Egenskaper\Uppgift 2 Validera Egenskaper.csproj", "{A34B8C88-E955-4070-9442-97BDA1308689}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{39A82746-8315-4C53-87F9-72BAF8AC92B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39A82746-8315-4C53-87F9-72BAF8AC92B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39A82746-8315-4C53-87F9-72BAF8AC92B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A34B8C88-E955-4070-9442-97BDA1308689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A34B8C88-E955-4070-9442-97BDA1308689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A34B8C88-E955-4070-9442-97BDA1308689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A34B8C88-E955-4070-9442-97BDA1308689}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
