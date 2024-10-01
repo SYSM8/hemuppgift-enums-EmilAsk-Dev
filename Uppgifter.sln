@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift 4 Read-Only Egenska
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uppgift 5 Enum", "Hemuppgift Enums & Properties\Uppgift 5 Enum\Uppgift 5 Enum.csproj", "{EA2A8DD8-AC08-4DE3-91C9-CE4FABFC7484}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddNewStudent", "Wpf\AddNewStudent\AddNewStudent.csproj", "{FC335920-3731-4340-B50F-9943F5338179}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{EA2A8DD8-AC08-4DE3-91C9-CE4FABFC7484}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA2A8DD8-AC08-4DE3-91C9-CE4FABFC7484}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA2A8DD8-AC08-4DE3-91C9-CE4FABFC7484}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC335920-3731-4340-B50F-9943F5338179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC335920-3731-4340-B50F-9943F5338179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC335920-3731-4340-B50F-9943F5338179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC335920-3731-4340-B50F-9943F5338179}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
