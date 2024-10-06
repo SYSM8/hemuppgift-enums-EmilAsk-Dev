@@ -1,41 +1,24 @@
-﻿using System.Text;
+﻿using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace AddNewStudent
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
-
         List<Student> students = new List<Student>();
+        List<string> roles = new List<string>();
 
         public MainWindow()
         {
             InitializeComponent();
-
-            // Optional: Sample data to test the DataGrid binding
-            //students.Add(new Student { Username = "Emil", Password = "1234", IsAdmin = true });
-            //students.Add(new Student { Username = "Bob", Password = "1234", IsAdmin = false });
-            //students.Add(new Student { Username = "Charlie", Password = "1234", IsAdmin = false });
-
-            // Bind the DataGrid to the students list
             dataGrid.ItemsSource = students;
+            
         }
 
-        //adding a new student
+        // Adding a new student
         private void Add_User(object sender, RoutedEventArgs e)
         {
-            // Create a new Student object
             var newStudent = new Student
             {
                 Username = Username.Text,
@@ -43,18 +26,40 @@ namespace AddNewStudent
                 IsAdmin = IsAdmin.IsChecked ?? false
             };
 
+            if (!newStudent.IsEmpty())
+            {
+                students.Add(newStudent);
+                RefreshDataGrid();
+                ClearUserInputs();
+            }
+            else
+            {
+                MessageBox.Show("Please enter valid student details.", "Input Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
 
-            students.Add(newStudent);
+        private void Roles(object sender, RoutedEventArgs e)
+        {
+            // Navigate to the RolesPage
+            MainFrame.Navigate(new RolesPage());
+        }
 
+        private void Hej(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Hej");
+        }
 
+        private void RefreshDataGrid()
+        {
             dataGrid.ItemsSource = null;
             dataGrid.ItemsSource = students;
+        }
 
-
+        private void ClearUserInputs()
+        {
             Username.Text = string.Empty;
             Password.Password = string.Empty;
             IsAdmin.IsChecked = false;
         }
-
     }
 }
